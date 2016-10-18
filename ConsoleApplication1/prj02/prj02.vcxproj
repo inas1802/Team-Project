@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6EFAFA98-743B-47A5-BA09-EC8E01155B3D}</ProjectGuid>
+    <ProjectGuid>{43B4F5F4-774C-4440-8517-D1DC2FDAAD11}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Prj01</RootNamespace>
+    <RootNamespace>prj02</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,6 +146,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="puts.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
